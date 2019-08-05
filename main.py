@@ -7,6 +7,8 @@ def main(extype, exnum):
     if extype == 'forwhile_loops':
         if exnum == 1:
             print(forwhile_loops.ex1())
+        elif exnum == 2:
+            print(forwhile_loops.ex2())
 
     return
 
