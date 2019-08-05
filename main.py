@@ -13,8 +13,8 @@ def main(extype, exnum):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Week 2 exercises solution')
-    parser.add_argument('exercise type', default='forwhile_loops', help='choose exercise type')
-    parser.add_argument('exercise number', type=int, default=0, help='exercise number')
+    parser.add_argument('--extype', default='forwhile_loops', help='choose exercise type')
+    parser.add_argument('--exnum', type=int, default=0, help='exercise number')
 
     args = parser.parse_args()
-    main()
+    main(args.extype, args.exnum)
