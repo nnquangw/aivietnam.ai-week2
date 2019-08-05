@@ -24,6 +24,6 @@ def ex2():
 
     for _ in range(total_flip):
         n = random.random()
-        num_sides[round(n)] = num_sides[round(n)] + 1
+        num_sides[int(n/0.7)] = num_sides[int(n/0.7)] + 1
 
     return num_sides
