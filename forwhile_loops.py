@@ -27,3 +27,15 @@ def ex2():
         num_sides[int(n/0.7)] = num_sides[int(n/0.7)] + 1
 
     return num_sides
+
+
+def ex3():
+    """
+    Print a random integer in range [0,10] except 5. Using while loops to regenerate number if it was 5.
+    :return: an integer
+    """
+    n = 5
+    while n == 5:
+        n = random.randint(0, 10)
+
+    return n
