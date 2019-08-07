@@ -22,7 +22,7 @@ def e():
     Estimating e's value
     :return: a float approximates to e
     """
-    n = 100000
+    n = 1000
     e = 0
     for i in range(n):
         e = e + 1/math.factorial(i)
