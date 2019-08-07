@@ -9,6 +9,8 @@ def main(extype, exnum):
             print(forwhile_loops.ex1())
         elif exnum == 2:
             print(forwhile_loops.ex2())
+        elif exnum == 3:
+            print(forwhile_loops.ex3())
 
     return
 
