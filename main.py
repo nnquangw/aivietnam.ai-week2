@@ -1,6 +1,7 @@
 import argparse
 
 import forwhile_loops
+import pie_estimate
 
 
 def main(extype, exnum):
@@ -11,7 +12,11 @@ def main(extype, exnum):
             print(forwhile_loops.ex2())
         elif exnum == 3:
             print(forwhile_loops.ex3())
-
+    elif extype == 'pie_estimate':
+        if exnum == 1:
+            print(pie_estimate.pi())
+        elif exnum == 2:
+            print(pie_estimate.e())
     return
 
 
